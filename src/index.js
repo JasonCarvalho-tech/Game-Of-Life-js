@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 class Box extends React.Component {
+    selectBox= () => {
+        this.props.selectBox(this.props.row, this.props.col)
+    }
+
     render() {
         return (
             <div
@@ -16,7 +20,7 @@ class Box extends React.Component {
 
 class Grid extends React.Component {
     render() {
-        const width = this.props.cols * 14;
+        const width = this.props.cols * 16;
         var rowsArr = []
 
         var boxClass = "";
@@ -40,7 +44,7 @@ class Grid extends React.Component {
 
         return(
             <div className="grid" style={{width: width}}>
-                {{rowsArr}}
+                {rowsArr}
             </div>
         );
     }
@@ -52,7 +56,6 @@ class Main extends React.Component {
         this.speed = 100;
         this.rows = 30;
         this.cols = 50;
-        selectBox=(this.selectBox)
 
         this.state = {
             generation: 0,

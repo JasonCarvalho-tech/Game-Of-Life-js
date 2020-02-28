@@ -48,3 +48,8 @@ h1, h2, h3, h4 {
 h4 {
   margin-top: 0px;
 }
+
+button {
+  margin-right: 20px;
+  padding: 0 10px 0 10px;
+}

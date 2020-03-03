@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Graduate&display=swap');
+
 body {
-  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png) 
+  font-family: 'Graduate', cursive;
+  background-image: url('./background.jpg');
 }
   
 .box {
@@ -12,11 +15,11 @@ body {
   }
 
 .off {
-  background-color: lightgray;
+  background-color: rgb(235, 231, 231);
 }
 
 .on {
-  background-color: green;
+  background-color: yellow;
 }
   
 .box:hover { 
@@ -38,7 +41,7 @@ body {
 }
   
 h1, h2, h3, h4 {
-  color: white;
+  color: black;
   margin: auto;
   text-align: center;
   width: 50%;
@@ -50,6 +53,6 @@ h4 {
 }
 
 button {
-  margin-right: 20px;
+  margin:10px;
   padding: 0 10px 0 10px;
 }

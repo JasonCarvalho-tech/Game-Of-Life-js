@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Graduate', cursive;
-  background-image: url('./background.jpg');
+  background-color: #B0C4DE;
 }
   
 .box {
@@ -15,11 +15,11 @@ body {
   }
 
 .off {
-  background-color: rgb(235, 231, 231);
+  background-color:#0000CD;
 }
 
 .on {
-  background-color: yellow;
+  background-color: #00BFFF;
 }
   
 .box:hover { 
